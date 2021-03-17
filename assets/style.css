@@ -1,5 +1,76 @@
+/* 
+
+light green: #7ed56f
+medium green: #55c57a
+dark green: #28b485
+*/
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: 'IRANYekanWeb(Light)';
+    src: url('./font/IRANYekanWebFaNum-Light.eot');
+    src: url('./font/IRANYekanWebFaNum-Light.eot?#iefix') format('embedded-opentype'), url('./font/IRANYekanWebFaNum-Light.woff2') format('woff2'), url('./font/IRANYekanWebFaNum-Light.woff') format('woff'), url('./font/IRANYekanWebFaNum-Light.ttf') format('truetype'), url('./font/IRANYekanWebFaNum-Light.svg#IRANYekanWebFaNum-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}			
+
+body{
+    font-family: 'IRANYekanWeb(Light)', sans-serif;
+    font-weight: 400;
+    font-size: 125%;
+    line-height: 1.7;
+    color: #777;
+    padding: 30px;
+}
+
+.header{
+    height: 90vh;
+    background-image:linear-gradient(to top right,#7ed56f91,#28b4858a),
+     url('./img/bg.jpg');
+    background-size: cover;
+    background-position: bottom;
+    clip-path: polygon(0 0,100% 0%, 100% 65%,70% 100%, 0 100%);
+    position: relative;
+    border-radius: 10px;
+}
+.logo-box{
+    position:absolute;
+    top: 30px;
+    left: 40px;
+
+}
+.logo{
+    height: 45px;
+}
+
+.text-box{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.heading-primary{
+    color: #fff;
+
+}
+.heading-primary__main{
+    font-family: 'Vibes', cursive;
+    display: block;
+    font-size: 6.5rem;
+    letter-spacing: 35px;
+    font-weight: 400;
+    text-align: right;
+}
+.heading-primary__sub{
+    font-family: 'Harmattan';
+    display: block;
+    font-size: 2rem;
+    font-weight: 400;
 }
