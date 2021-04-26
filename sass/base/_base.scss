@@ -1,0 +1,26 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+
+@font-face {
+    font-family: 'IRANYekanWeb(Light)';
+    src: url('./font/IRANYekanWebFaNum-Light.eot');
+    src: url('./font/IRANYekanWebFaNum-Light.eot?#iefix') format('embedded-opentype'), url('./font/IRANYekanWebFaNum-Light.woff2') format('woff2'), url('./font/IRANYekanWebFaNum-Light.woff') format('woff'), url('./font/IRANYekanWebFaNum-Light.ttf') format('truetype'), url('./font/IRANYekanWebFaNum-Light.svg#IRANYekanWebFaNum-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}			
+
+
+body{
+    font-family: 'IRANYekanWeb(Light)', sans-serif;
+    font-weight: 400;
+    font-size: 125%;
+    line-height: 1.7;
+    color: #777;
+    padding: 30px 30px 0 30px ;
+}
