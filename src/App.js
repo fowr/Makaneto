@@ -13,10 +13,11 @@ const App=()=> {
         <Users/> 
       </Route>
       <Route path="/:userId/places" exact>
-        <h1>salam</h1>
+        <Users/>
       </Route>
       <Route path="/places/new" exact>
-        <Newplace/>
+        
+            <h1>salam</h1>
       </Route>
       <Redirect to="/"/>
     </Switch>
