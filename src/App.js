@@ -1,4 +1,5 @@
 import './App.scss';
+import '../node_modules/bootstrap/scss/bootstrap.scss'
 import {BrowserRouter as Router,Route,Redirect,Switch} from 'react-router-dom'
 import Users from './user/pages/Users';
 import MainNavigation from './shared/components/Navigation/MainNavigation'
@@ -9,11 +10,12 @@ const App=()=> {
     
     
     <Switch>
+    <main>
+      <MainNavigation/>
       <Route path="/" exact > 
         <Index/>
       </Route>
-      <main>
-      <MainNavigation/>
+     
       <Route path="/users" exact > 
         <Users/> 
       </Route>
