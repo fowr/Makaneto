@@ -4,7 +4,7 @@ import {BrowserRouter as Router,Route,Redirect,Switch} from 'react-router-dom'
 import Users from './user/pages/Users';
 import MainNavigation from './shared/components/Navigation/MainNavigation'
 import Index from './landing/pages/Index'
-
+import Footer from './shared/components/Navigation/Footer'
 const App=()=> {
   return   (  <Router>
     
@@ -28,8 +28,10 @@ const App=()=> {
       </Route>
       <Redirect to="/"/>
       </main>
+      
+     
     </Switch>
-   
+    <Footer/>
    
     
   
